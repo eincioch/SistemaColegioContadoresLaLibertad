@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Integration.Test", "Integration.Test\Integration.Test.vbproj", "{A34787C7-9F3F-4231-9AA2-F155549F92EF}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Integration.DataIntegration", "Integration.DataIntegration\Integration.DataIntegration.vbproj", "{BD77B395-A455-4008-867C-419CD69F318F}"
@@ -105,5 +103,8 @@ Global
 		{381DAA73-F188-4B47-BADC-88B1265C1101} = {EF42B6F0-6855-4BC6-9547-3F2E61B461AC}
 		{B3B11ABC-5F97-4A78-BA7E-863EEB94D877} = {92ACCF83-B703-450C-B6D9-09AF75DDE534}
 		{2D489151-55C0-4B5B-A2BD-8551FC7C7561} = {92ACCF83-B703-450C-B6D9-09AF75DDE534}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
