@@ -102,7 +102,7 @@ Public Class NotificarErrorAyuda
 
             SMTP.EnableSsl = True
             'SMTP.Credentials = New System.Net.NetworkCredential("apolothreads@gmail.com", "Apolo0525")
-            SMTP.Credentials = New System.Net.NetworkCredential("eincio@ucv.edu.pe", "@lpaloaz")
+            SMTP.Credentials = New System.Net.NetworkCredential("eincio@ucv.edu.pe", "password")
             SMTP.Send(CORREO)
 
         Catch ex As Exception
